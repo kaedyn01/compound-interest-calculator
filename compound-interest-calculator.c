@@ -39,6 +39,7 @@ int main(int argc, char **argv)
     double t = atof(argv[4]);       // length of time interest is applied (in years)
 
     A = compound_interest_calculator(P, r, n, t);
+
     printf("A = %.2f\n", A);
     printf("Interest Generated = %.2f\n", A - P);
 
