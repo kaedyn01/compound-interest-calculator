@@ -1,5 +1,5 @@
 make:
-	gcc -Wall -Wextra -pedantic -Werror -lm -o compound-interest-calculator compound-interest-calculator.c
+	gcc -Wall -Wextra -pedantic -Werror -lm -o cic compound-interest-calculator.c
 
 clean: 
-	rm compound-interest-calculator
+	rm cic

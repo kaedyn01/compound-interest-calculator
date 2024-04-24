@@ -25,16 +25,18 @@ double compound_interest_calculator(double P, double r, double n, double t)
  */
 int main(int argc, char **argv)
 {
-    double A;   // final compounded amount
-    double P;   // principal amount
-    double r;   // nominal annual interest rate
-    double n;   // compounding frequency
-    double t;   // length of time interest is applied (in years)
+    // Handle incorrect number of arguments, there should be 5 arguments including the program name.
+    if (argc != 5)
+    {
+        printf("Use:\ncic P r n t\n");
+        return 1;
+    }
 
-    P = 1000;
-    r = 1.43;
-    n = 1;
-    t = 1;
+    double A;                   // final compounded amount
+    double P = atof(argv[1]);   // principal amount
+    double r = atof(argv[2]);   // nominal annual interest rate
+    double n = atof(argv[3]);   // compounding frequency
+    double t = atof(argv[4]);   // length of time interest is applied (in years)
 
     A = compound_interest_calculator(P, r, n, t);
     printf("Compounded interest: %f\n", A);
