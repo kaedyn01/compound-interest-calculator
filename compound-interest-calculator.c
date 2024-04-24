@@ -7,7 +7,7 @@ double compound_interest_calculator(double P, double r, double n, double t)
     return P * pow((1 + (r / n)), n * t);
 }
 
-int main()
+int main(int argc, char **argv)
 {
     double P;
     double r;
