@@ -17,7 +17,7 @@
  */
 double compound_interest_calculator(double P, double r, double n, double t)
 {
-    return P * pow((1 + (r / n)), n * t);
+    return P * (pow((1 + (r / n)), n * t));
 }
 
 /**
@@ -34,7 +34,7 @@ int main(int argc, char **argv)
 
     double A;                   // final compounded amount
     double P = atof(argv[1]);   // principal amount
-    double r = atof(argv[2]);   // nominal annual interest rate
+    double r = atof(argv[2]) / 100;   // annual interest rate
     double n = atof(argv[3]);   // compounding frequency
     double t = atof(argv[4]);   // length of time interest is applied (in years)
 
