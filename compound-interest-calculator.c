@@ -32,14 +32,15 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    double A;                   // final compounded amount
-    double P = atof(argv[1]);   // principal amount
-    double r = atof(argv[2]) / 100;   // annual interest rate
-    double n = atof(argv[3]);   // compounding frequency
-    double t = atof(argv[4]);   // length of time interest is applied (in years)
+    double A;                       // final compounded amount
+    double P = atof(argv[1]);       // principal amount
+    double r = atof(argv[2]) / 100; // annual interest rate
+    double n = atof(argv[3]);       // compounding frequency
+    double t = atof(argv[4]);       // length of time interest is applied (in years)
 
     A = compound_interest_calculator(P, r, n, t);
-    printf("Compounded interest: %.2f\n", A);
+    printf("A = %.2f\n", A);
+    printf("Interest Generated = %.2f\n", A - P);
 
     return 0;
 }
