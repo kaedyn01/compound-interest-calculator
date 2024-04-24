@@ -21,7 +21,8 @@ double compound_interest_calculator(double P, double r, double n, double t)
 }
 
 /**
- * Main function.
+ * This main function handles gathering command line arguments, as well as outputting
+ * the final amount and interest generated to the stdio.
  */
 int main(int argc, char **argv)
 {
