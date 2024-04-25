@@ -1,4 +1,4 @@
-# Compound Interest Calculator
+## Intro
 
 This program is a compound interest calculator for the command line.
 
@@ -10,3 +10,11 @@ Where...
 - *r* is the nominal annual interest rate
 - *n* is the compounding frequency
 - *t* is the length of time interest is applied
+
+## Installation (building from source)
+1. Download or clone the source code
+2. Run the following:
+```
+make
+```
+3. Move the resulting binary to the desired directory
