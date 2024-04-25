@@ -18,3 +18,12 @@ Where...
 make
 ```
 3. Move the resulting binary to the desired directory
+
+## Utilization
+Run the program in the following format:
+```
+./cic P r n t
+```
+For example, calculating the interest on account with a principal amount
+of 1,000 with an annual interest rate of 5.5% compounded over the course
+of 3 years.
