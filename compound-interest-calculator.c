@@ -29,7 +29,8 @@ int main(int argc, char **argv)
     // Handle incorrect number of arguments, there should be 5 arguments including the program name.
     if (argc != 5)
     {
-        printf("Use:\ncic P r n t\n");
+        printf("Compound Interest Calculator Usage: \"cic P r n t\"\n");
+        printf("Where P = principal amount,\n\tr = annual interest rate,\n\tn = compounding frequency,\n\tt = length of time interest is applied");
         return 1;
     }
 
