@@ -13,7 +13,7 @@ Where...
 
 ## Installation (building from source)
 1. Download or clone the source code
-2. Run the following:
+2. Run the following in the source directory:
 ```
 make
 ```
