@@ -30,7 +30,11 @@ int main(int argc, char **argv)
     if (argc != 5)
     {
         printf("Compound Interest Calculator Usage: \"cic P r n t\"\n");
-        printf("Where P = principal amount,\n\tr = annual interest rate,\n\tn = compounding frequency,\n\tt = length of time interest is applied");
+        printf("Where...\n");
+        printf("\tP = principal amount\n");
+        printf("\tr = annual interest rate\n");
+        printf("\tn = compounding frequency,\n");
+        printf("\tt = length of time interest is applied\n");
         return 1;
     }
 
