@@ -26,7 +26,7 @@ double compound_interest_calculator(double P, double r, double n, double t)
  */
 int main(int argc, char **argv)
 {
-    // Handle incorrect number of arguments, there should be 5 arguments including the program name.
+   // Handle incorrect number of arguments, there should be 5 arguments including the program name.
     if (argc != 5)
     {
         printf("Compound Interest Calculator Usage: \"cic P r n t\"\n");
