@@ -26,4 +26,7 @@ Run the program in the following format:
 ```
 For example, calculating the interest on account with a principal amount
 of 1,000 with an annual interest rate of 5.5% compounded over the course
-of 3 years.
+of 3 years would require the following command:
+```
+./cic 1000 5.5 1 3
+```
